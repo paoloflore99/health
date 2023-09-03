@@ -5,6 +5,7 @@ import TheHeader from './components/TheHeader.vue'
 import TheNavbar from './components/TheNavbar.vue'
 import TheDoctor from './components/TheDoctor.vue'
 import TheService from './components/TheService.vue'
+import TheStrutture from './components/theStrutture.vue'
 
 
 export default {
@@ -13,6 +14,7 @@ export default {
     TheFooter,
 	TheDoctor,
     TheHeader,
+	TheStrutture,
 	TheService,
 	}
 };
@@ -24,6 +26,7 @@ export default {
 	<TheFooter></TheFooter>
 	<TheDoctor></TheDoctor>
 	<TheService></TheService>
+	<TheStrutture></TheStrutture>
 	<TheHeader></TheHeader>
 
 </template>
