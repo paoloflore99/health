@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row centratura-paragrafo titolo-benvenuto">
                 <h2>Welcome To Avada Health</h2>
-                <p class="p-3">Sed Ut Perspiciatis Unde Omnis Iste Natus Error Sit Voluptatem <br>Accusantium Doloremque Laudantium, Totam Rem Aperiam, Eaque <br>Ipsa Quae Ab Illo</p>
+                <p class="p-3 size-testo">Sed Ut Perspiciatis Unde Omnis Iste Natus Error Sit Voluptatem <br>Accusantium Doloremque Laudantium, Totam Rem Aperiam, Eaque <br>Ipsa Quae Ab Illo</p>
             </div>
                 <div class="d-flex justify-content-between">
                     <div class="centratura-paragrafo">
@@ -67,6 +67,10 @@ a {
     transition: 0.5s;
     text-decoration: none;
     color: black;
+}
+
+.size-testo {
+    font-size: 1.5rem;
 }
 
 </style>
