@@ -12,25 +12,25 @@
                 <div class="d-flex justify-content-between">
                     <div class="centratura-paragrafo">
                         <img class="p-3" src="../assets/img/icon-1.png" alt="">
-                        <h5>SAME DAY <br> APPOINTMENTS</h5>
+                        <h5><a href="#">SAME DAY <br> APPOINTMENTS</a></h5>
                         <p class="testo-griggio">Sed ut perspiciatis unde omnis iste</p>
                         <p class="testo-griggio">natus error sit voluptam accusantim</p>
                     </div>
                     <div class="centratura-paragrafo">
                         <img class="p-3" src="../assets/img/icon-2.png" alt="">
-                        <h5>WORLD CLASS <br>FACILITIES</h5>
+                        <h5><a href="#">WORLD CLASS <br>FACILITIES</a></h5>
                         <p class="testo-griggio">Sed ut perspiciatis unde omnis iste</p>
                         <p class="testo-griggio">natus error sit voluptam accusantim</p>
                     </div>
                     <div class="centratura-paragrafo ">
                         <img class="p-3"  src="../assets/img/icon-3.png" alt="">
-                        <h5>EXPERT DOCTORS</h5>
+                        <h5><a href="#">EXPERT DOCTORS</a></h5>
                         <p class="testo-griggio">Sed ut perspiciatis unde omnis iste</p>
                         <p class="testo-griggio">natus error sit voluptam accusantim</p>
                     </div>
                     <div class="centratura-paragrafo">
                         <img class="p-3" src="../assets/img/icon-4.png" alt="">
-                        <h5>COMPLEMENTARY <br> THERAPIES</h5>
+                        <h5><a href="#">COMPLEMENTARY <br> THERAPIES</a></h5>
                         <p class="testo-griggio">Sed ut perspiciatis unde omnis iste</p>
                         <p class="testo-griggio">natus error sit voluptam accusantim</p>
                     </div>
@@ -43,7 +43,7 @@
 <style lang="scss" scoped>
 
 .footer-blocco-uno {
-    height: 80vh;
+    height: 60vh;
 }
 
 .centratura-paragrafo {
@@ -55,7 +55,18 @@
 }
 
 .testo-griggio {
-    color: #333c4e;
+    color: #747373;
+}
+
+a:hover {
+    color: #3bafbf;
+    transition: 0.5s;
+}
+
+a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
 }
 
 </style>
