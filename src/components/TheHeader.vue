@@ -7,8 +7,14 @@ export default {
 
 <template>
     <div class="ultima-sezzione">
-        <div class="carosello">
-
+        <div class="carosello ">
+            <div class="container text-center">
+                <img src="../assets/img/client-logos-1-200x188.png" alt="">
+                <img src="../assets/img/client-logos-2-200x188.png" alt="">
+                <img src="../assets/img/client-logos-3-200x188.png" alt="">
+                <img src="../assets/img/client-logos-4-200x188.png" alt="">
+            </div>
+            
         </div>
 
         <div class="col-12 meta d-flex justify-content-between ">
@@ -50,11 +56,15 @@ export default {
             </div>
             <div class="col-4 p-4">
                 <h5>CONTACT INFORMATION</h5>
+                <div class="linitta">
+                    <!-- <img class="border border-1 " src="../assets/img/image (1).png" alt=""> -->
+                </div>
+                
                 <p class="color">121 King Street, London United Kingdom</p>
                 <p class="color">1.800.458.556</p>
                 <div class="card-mio">
                     <p class="color p-4">For privacy reasons Google Maps needs your permission to be <br> loaded.</p>
-                    <button class="btn-Header p-3 text-white border border-0 container-fluid">LEARN MORE</button>
+                    <button class="btn-Header p-3 text-white border border-0 container-fluid">I ACCEPT</button>
                 </div>
             </div>
             <div class="col-4 p-4">
@@ -68,7 +78,7 @@ export default {
                     <li><i class="fa-solid fa-check cerchio p-1"></i> Ultrasound Echocardiogram</li>
                 </ul>
                 <div class="btn-centrare text-center p-5">
-                    <button class="btn-Header p-3 text-white border border-0 container-fluid">LEARN MORE</button>
+                    <button class="btn-Header p-3 text-white border border-0 container-fluid">VIEW OUR DEPARTMENTS</button>
                 </div>
 
             </div>
@@ -119,6 +129,7 @@ export default {
     // margin-right: 10px;
     // padding: 10px;
     width: 100%;
+    
 }
 
 .btn-Header:hover {
@@ -190,6 +201,13 @@ a {
     margin-right: 10px;
 }
 
+
+.linetta {
+    
+    border: 5px solid black;
+    width: 30px;
+}
 // .btn-centrare {
 
-// }</style>
+// }
+</style>

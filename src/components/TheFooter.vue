@@ -99,9 +99,6 @@ a {
     margin-right: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+
 
 </style>
