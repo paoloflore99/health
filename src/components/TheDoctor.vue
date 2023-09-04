@@ -33,6 +33,29 @@
                                 <p class="card-text">odio dignissimos ducimus qui</p>
                                 <p class="card-text">blanditiis praesentium voluptatum</p>
                                 <p>deleniti atque</p>
+                                <div class="d-flex"><!--icone social-->
+                                    <div class="rounded-2 P-1 facebook icona spazzio">
+                                        <a href="#">
+                                            <i class="fa-brands fa-facebook-f  "></i>
+                                        </a>
+                                        
+                                    </div>
+
+                                    <div class="rounded-2 P-1 twitter icona spazzio">
+                                        <a href="#">
+                                            <i class="fa-brands fa-twitter  "></i>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                    <div class=" rounded-2 P-1 instagram icona">
+                                        <a href="#">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -51,6 +74,29 @@
                                 <p class="card-text">odio dignissimos ducimus qui</p>
                                 <p class="card-text">blanditiis praesentium voluptatum</p>
                                 <p>deleniti atque</p>
+                                <div class="d-flex"><!--icone social-->
+                                    <div class="rounded-2 P-1 facebook icona spazzio">
+                                        <a href="#">
+                                            <i class="fa-brands fa-facebook-f  "></i>
+                                        </a>
+                                        
+                                    </div>
+
+                                    <div class="rounded-2 P-1 twitter icona spazzio">
+                                        <a href="#">
+                                            <i class="fa-brands fa-twitter  "></i>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                    <div class=" rounded-2 P-1 instagram icona">
+                                        <a href="#">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -70,10 +116,28 @@
                                 <p class="card-text">blanditiis praesentium voluptatum</p>
                                 <p>deleniti atque</p>
 
-                                <div class=""><!--icone social-->
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-square-instagram"></i>
+                                <div class="d-flex"><!--icone social-->
+                                    <div class="rounded-2 P-1 facebook icona spazzio">
+                                        <a href="#">
+                                            <i class="fa-brands fa-facebook-f  "></i>
+                                        </a>
+                                        
+                                    </div>
+
+                                    <div class="rounded-2 P-1 twitter icona spazzio">
+                                        <a href="#">
+                                            <i class="fa-brands fa-twitter  "></i>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                    <div class=" rounded-2 P-1 instagram icona">
+                                        <a href="#">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        
+                                    </div>
+                                    
                                 </div>
 
                             </div>
@@ -125,5 +189,32 @@ img {
     font-size: 2.5rem;
 }
 
+.facebook {
+    background-color: #2a71b4;
+}
 
+.twitter {
+    background-color: #1e8db9;
+}
+
+.instagram {
+    background-color: #3b7a97;
+}
+
+.icona {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.spazzio {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
 </style>

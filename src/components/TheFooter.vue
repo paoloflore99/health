@@ -75,4 +75,33 @@ a {
     font-size: 1.5rem;
 }
 
+.facebook {
+    background-color: #2a71b4;
+}
+
+.twitter {
+    background-color: #1e8db9;
+}
+
+.instagram {
+    background-color: #3b7a97;
+}
+
+.icona {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.spazzio {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 </style>
